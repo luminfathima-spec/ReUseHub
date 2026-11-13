@@ -1,0 +1,30 @@
+{
+  "name": "reusehub-monorepo",
+  "version": "1.0.0",
+  "description": "ReUseHub – A Community-Based Product Reuse, Donation and Exchange Platform (MCA Academic Project)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail -n \"SERVER,CLIENT\" -c \"magenta,cyan\" \"npm run server\" \"npm run client\"",
+    "server": "npm run dev --prefix server",
+    "server:start": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "client:preview": "npm run preview --prefix client",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "reusehub",
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "vite",
+    "nosql",
+    "academic-project"
+  ],
+  "author": "ReUseHub MCA Development Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
