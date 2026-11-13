@@ -126,3 +126,4 @@ export const Benefits = () => {
 };
 
 export default Benefits;
+

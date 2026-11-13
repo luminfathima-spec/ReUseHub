@@ -8,3 +8,4 @@ const { getHealthStatus } = require('../controllers/healthController');
 router.get('/health', getHealthStatus);
 
 module.exports = router;
+

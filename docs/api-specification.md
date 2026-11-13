@@ -102,3 +102,4 @@ Triggered when requesting a non-existent route (e.g., `GET /api/undefined-endpoi
 }
 ```
 *(Stack trace is automatically omitted when `NODE_ENV=production`)*.
+

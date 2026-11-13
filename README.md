@@ -335,3 +335,4 @@ curl.exe -i http://localhost:5000/api/health
 
 ### Scope Protection (Phase 2 Notice):
 > **Phase 2 has NOT been started.** User authentication, MongoDB collection schemas (Users, Products, Categories, Transactions), product listing creation, and exchange logic remain reserved for future phases pending user review and approval.
+

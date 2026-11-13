@@ -62,3 +62,4 @@
 - **Zero Secret Exposure**: All database connection strings and sensitive port numbers are stored in `server/.env`, which is strictly ignored by `.gitignore`.
 - **Placeholder Detection**: The backend safely checks for unconfigured placeholder connection strings and informs the developer instead of crashing or hanging indefinitely.
 - **Fail-Fast Timeouts**: Database connection attempts utilize `serverSelectionTimeoutMS: 5000` to prevent blocked execution pipelines if network connectivity to Atlas is unavailable.
+

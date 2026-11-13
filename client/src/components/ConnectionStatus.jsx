@@ -335,3 +335,4 @@ export const ConnectionStatus = ({ variant = 'banner' }) => {
 };
 
 export default ConnectionStatus;
+

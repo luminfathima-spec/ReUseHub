@@ -35,3 +35,4 @@ const getHealthStatus = (req, res) => {
 module.exports = {
   getHealthStatus
 };
+
